@@ -29,7 +29,6 @@ git clone https://github.com/PhoeKae/shop-frontend-react.git
 
 ```
 npm install
-
 ```
     npm run dev
 
