@@ -35,6 +35,16 @@ const Navbar = () => {
           <li>
             <Link to="/contact" className='font-semibold tracking-wider text-white hover:text-orange-500'>Contact Us</Link>
           </li>
+          {/* TanStack Query Demo Links */}
+          <li>
+            <Link to="/dashboard" className='font-semibold tracking-wider text-white hover:text-orange-500'>Dashboard</Link>
+          </li>
+          <li>
+            <Link to="/products" className='font-semibold tracking-wider text-white hover:text-orange-500'>Products</Link>
+          </li>
+          <li>
+            <Link to="/categories" className='font-semibold tracking-wider text-white hover:text-orange-500'>Categories</Link>
+          </li>
         </ul>
 
         {/* Nav Action */}
@@ -60,6 +70,16 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/contact" className='font-semibold tracking-wider text-white hover:text-orange-500'>Contact Us</Link>
+          </li>
+          {/* TanStack Query Demo Links */}
+          <li>
+            <Link to="/dashboard" className='font-semibold tracking-wider text-white hover:text-orange-500'>Dashboard</Link>
+          </li>
+          <li>
+            <Link to="/products" className='font-semibold tracking-wider text-white hover:text-orange-500'>Products</Link>
+          </li>
+          <li>
+            <Link to="/categories" className='font-semibold tracking-wider text-white hover:text-orange-500'>Categories</Link>
           </li>
         </ul>
       </motion.nav>

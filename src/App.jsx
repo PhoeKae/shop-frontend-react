@@ -5,6 +5,9 @@ import MenuPage from './components/MenuPage/MenuPage'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import OurProcess from './components/OurProcess/OurProcess'
 import ContactUs from './components/ContactUs/ContactUs'
+import Dashboard from './components/Dashboard'
+import Products from './components/Products'
+import Categories from './components/Categories'
 
 function App() {
 
@@ -29,7 +32,18 @@ function App() {
           path: '/contact',
           element: <ContactUs />
         },
-
+        {
+          path: '/dashboard',
+          element: <Dashboard />
+        },
+        {
+          path: '/products',
+          element: <Products />
+        },
+        {
+          path: '/categories',
+          element: <Categories />
+        }
       ]
     }
   ])
