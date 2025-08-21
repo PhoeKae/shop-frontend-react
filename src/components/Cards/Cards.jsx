@@ -15,7 +15,6 @@ const Cards = ({ image, title, price }) => {
       <div className='text-center'>
         <h3 className='text-2xl font-semibold '>{title}</h3>
         <p className='text-2xl font-bold mt-4 mb-3'>{price} Ks</p>
-        <Button content="View Details" />
       </div>
     </div>
   )
